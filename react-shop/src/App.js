@@ -14,40 +14,40 @@ constructor(props) {
       {
         id: 1,
         title: 'Ноутбук FMNX',
-        img: '/test.jpg',
-        desc: 'DescriptionDescriptionDescriptionDescription',
+        img: '/test.webp',
+        desc: 'Description Description Description Description ',
         category: 'laptops',
         price: '500'
       },
       {
         id: 2,
         title: 'Ноутбук FMNX',
-        img: '/test.jpg',
-        desc: 'DescriptionDescriptionDescriptionDescription',
+        img: '/test.webp',
+        desc: 'Description Description Description Description ',
         category: 'laptops',
         price: '500'
       },
       {
         id: 3,
         title: 'Ноутбук FMNX',
-        img: '/test.jpg',
-        desc: 'DescriptionDescriptionDescriptionDescription',
+        img: '/test.webp',
+        desc: 'Description Description Description Description ',
         category: 'laptops',
         price: `500`
       },
       {
         id: 4,
         title: 'Ноутбук FMNX',
-        img: '/test.jpg',
-        desc: 'DescriptionDescriptionDescriptionDescription',
+        img: '/test.webp',
+        desc: 'Description Description Description Description ',
         category: 'laptops',
         price: `500`
       },
       {
         id: 5,
         title: 'Ноутбук FMNX',
-        img: '/test.jpg',
-        desc: 'DescriptionDescriptionDescriptionDescription',
+        img: '/test.webp',
+        desc: 'Description Description Description Description ',
         category: 'laptops',
         price: `500`
       },
