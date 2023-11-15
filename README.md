@@ -1,2 +1,0 @@
-# fmnx-shop
-FMNX shop
