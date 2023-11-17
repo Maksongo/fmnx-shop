@@ -57,10 +57,12 @@ constructor(props) {
 
   render() {
   return (
+    <div>
+    <Header />
     <div className="wrapper">
-      <Header />
       <Items items={this.state.items} />
       <Footer />
+    </div>
     </div>
   )
   }

@@ -14,7 +14,7 @@ export default function Header() {
               <li>Кабинет</li>
             </ul>
             </nav>
-        <div className='presentation'></div>
+        {/* <div className='presentation'></div> */}
     </header>
   )
 }

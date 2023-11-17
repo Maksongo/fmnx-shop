@@ -14,13 +14,14 @@ body {
 
 .wrapper {
   width: 1280px;
-  margin: 50px auto;
+  margin: 0px auto;
 }
 
 nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid #2c2f35;
 }
 
 .Header-logo-div{
