@@ -12,6 +12,10 @@ body {
   font-weight: 300;
 }
 
+header{
+  margin: 0 40px 0 40px;
+}
+
 .wrapper {
   width: 1280px;
   margin: 0px auto;
@@ -64,6 +68,21 @@ header .presentation {
   height: 500px;
   background-size: cover;
   background-position: center center;
+}
+
+header .shop-cart-button{
+  cursor: pointer;
+  transition: color 500ms ease;
+}
+
+header .shop-cart-button:hover, .header .shop-cart-button:active{
+  color:#ca5252;
+}
+
+.header-nav-buttons{
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
 }
 
 main {
