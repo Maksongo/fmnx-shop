@@ -14,6 +14,7 @@ body {
 
 header{
   margin: 0 40px 0 40px;
+  position: relative;
 }
 
 .wrapper {
@@ -75,8 +76,21 @@ header .shop-cart-button{
   transition: color 500ms ease;
 }
 
-header .shop-cart-button:hover, .header .shop-cart-button:active{
+.shop-cart-button:hover, .shop-cart-button:focus{
   color:#ca5252;
+  transform: scale(1.1);
+}
+
+header .shop-cart{
+  position: absolute;
+  top: 65px;
+  right: 0px;
+  width: 450px;
+  min-height: 100px;
+  background: #5fa36a; 
+  -webkit-box-shadow:  4px 5px 15px -7px #606060;
+  box-shadow: 4px 5px 15px -7px #606060;
+  z-index: 1000;
 }
 
 .header-nav-buttons{
