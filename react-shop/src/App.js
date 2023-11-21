@@ -10,6 +10,7 @@ class App extends React.Component {
 constructor(props) {
   super(props)
   this.state = {
+    orders: [],
     items: [
       {
         id: 1,
@@ -53,6 +54,7 @@ constructor(props) {
       },
     ]
   }
+  this.addToOrder = this.addToOrder.bind(this) // строчка позволяет в методе addToOrder взаимодействовать с состояниями
 }
 
   render() {
@@ -60,11 +62,17 @@ constructor(props) {
     <div>
     <Header />
     <div className="wrapper">
-      <Items items={this.state.items} />
+      <Items items={this.state.items} onAdd={this.addToOrder} />
       <Footer />
     </div>
     </div>
   )
+  }
+
+  addToOrder(item) {
+    this.setState({orders: [...this.state.orders, item]}, () =>{
+      console.log(this.state.orders)
+    }) // обращаемся к масиву orders, и добавляем в него item
   }
 }
 
