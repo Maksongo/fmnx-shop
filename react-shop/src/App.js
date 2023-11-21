@@ -60,7 +60,7 @@ constructor(props) {
   render() {
   return (
     <div>
-    <Header />
+    <Header orders={this.state.orders} />
     <div className="wrapper">
       <Items items={this.state.items} onAdd={this.addToOrder} />
       <Footer />
@@ -70,9 +70,7 @@ constructor(props) {
   }
 
   addToOrder(item) {
-    this.setState({orders: [...this.state.orders, item]}, () =>{
-      console.log(this.state.orders)
-    }) // обращаемся к масиву orders, и добавляем в него item
+    this.setState({orders: [...this.state.orders, item] }) // обращаемся к масиву orders, и добавляем в него item
   }
 }
 
