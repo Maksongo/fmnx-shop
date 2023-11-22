@@ -137,6 +137,13 @@ header .shop-cart .item .delete-icon:hover{
   color: rgb(131, 0, 0)
 }
 
+header .shop-cart .checkout-cart{
+  float: left;
+  width: 100%;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
 main {
   display: flex;
   width: 100%;
