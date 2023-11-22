@@ -124,6 +124,19 @@ header .shop-cart .item b{
   flex-direction: row-reverse;
 }
 
+header .shop-cart .item .delete-icon{
+  color: red;
+  float: right;
+  position: relative;
+  top: -20px;
+  cursor: pointer;
+  transition: color, transform 500ms ease;
+}
+
+header .shop-cart .item .delete-icon:hover{
+  color: rgb(131, 0, 0)
+}
+
 main {
   display: flex;
   width: 100%;

@@ -55,18 +55,23 @@ constructor(props) {
     ]
   }
   this.addToOrder = this.addToOrder.bind(this) // строчка позволяет в методе addToOrder взаимодействовать с состояниями
+  this.deleteOrder = this.deleteOrder.bind(this)
 }
 
   render() {
   return (
     <div>
-    <Header orders={this.state.orders} />
+    <Header orders={this.state.orders} onDelete={this.deleteOrder} />
     <div className="wrapper">
       <Items items={this.state.items} onAdd={this.addToOrder} />
       <Footer />
     </div>
     </div>
   )
+  }
+
+  deleteOrder(id) {
+    this.setState({ orders: this.state.orders.filter(el => el.id !== id)})
   }
 
   addToOrder(item) {
