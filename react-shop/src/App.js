@@ -31,7 +31,7 @@ constructor(props) {
       {
         id: 3,
         title: 'Монитор FMNX',
-        img: '/test.webp',
+        img: '/monitor.webp',
         desc: 'Description Description Description Description ',
         category: 'laptops',
         price: `500`
@@ -39,7 +39,7 @@ constructor(props) {
       {
         id: 4,
         title: 'Клавиатура FMNX',
-        img: '/test.webp',
+        img: '/keyboard.webp',
         desc: 'Description Description Description Description ',
         category: 'laptops',
         price: `500`
@@ -47,7 +47,7 @@ constructor(props) {
       {
         id: 5,
         title: 'Мышь FMNX',
-        img: '/test.webp',
+        img: '/mouse.webp',
         desc: 'Description Description Description Description ',
         category: 'laptops',
         price: `500`
