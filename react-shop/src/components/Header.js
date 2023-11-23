@@ -27,7 +27,7 @@ export default function Header(props) {
     <header>
       <nav>
           <div className="Header-logo-div">
-            <img className="header-logo" src="img/logo-icon.png" alt="" />
+            <img className="header-logo" src="img/logo.svg" alt="" />
             <span className='logo'>FMNX Store</span>
             </div>
             <div className='header-nav-buttons'>

@@ -13,8 +13,9 @@ body {
 }
 
 header{
-  margin: 0 40px 0 40px;
   position: relative;
+  border-bottom: 1px solid #2c2f35;
+  padding: 10px 0 10px 0;
 }
 
 .wrapper {
@@ -26,7 +27,7 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #2c2f35;
+  margin: 0 23px 0 23px;
 }
 
 .Header-logo-div{
@@ -41,8 +42,7 @@ header .logo {
 }
 
 .header-logo{
-  filter: invert(1);
-  height: 64px;
+  height: 30px;
 }
 
 
@@ -149,6 +149,7 @@ main {
   width: 100%;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-top: 40px;
 }
 
 main .item {

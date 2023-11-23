@@ -22,15 +22,15 @@ constructor(props) {
       },
       {
         id: 2,
-        title: 'Ноутбук FMNX',
-        img: '/test.webp',
+        title: 'Зарядка FMNX',
+        img: '/battarey.png',
         desc: 'Description Description Description Description ',
         category: 'laptops',
         price: '500'
       },
       {
         id: 3,
-        title: 'Ноутбук FMNX',
+        title: 'Монитор FMNX',
         img: '/test.webp',
         desc: 'Description Description Description Description ',
         category: 'laptops',
@@ -38,7 +38,7 @@ constructor(props) {
       },
       {
         id: 4,
-        title: 'Ноутбук FMNX',
+        title: 'Клавиатура FMNX',
         img: '/test.webp',
         desc: 'Description Description Description Description ',
         category: 'laptops',
@@ -46,7 +46,7 @@ constructor(props) {
       },
       {
         id: 5,
-        title: 'Ноутбук FMNX',
+        title: 'Мышь FMNX',
         img: '/test.webp',
         desc: 'Description Description Description Description ',
         category: 'laptops',
