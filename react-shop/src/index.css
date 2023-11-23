@@ -209,4 +209,6 @@ main .add-to-cart:hover {
 footer {
   text-align: center;
   margin-top: 100px;
+  height: 36.98px;
+  border-top: 1px solid #2c2f35;
 }

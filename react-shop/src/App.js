@@ -64,8 +64,8 @@ constructor(props) {
     <Header orders={this.state.orders} onDelete={this.deleteOrder} />
     <div className="wrapper">
       <Items items={this.state.items} onAdd={this.addToOrder} />
-      <Footer />
     </div>
+    <Footer />
     </div>
   )
   }
