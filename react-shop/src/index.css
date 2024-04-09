@@ -12,7 +12,7 @@ body {
   font-weight: 300;
 }
 
-header{
+header {
   position: relative;
   border-bottom: 1px solid #2c2f35;
   padding: 10px 0 9px 0;
@@ -23,14 +23,14 @@ header{
   margin: 0px auto;
 }
 
-nav{
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 23px 0 23px;
 }
 
-.Header-logo-div{
+.Header-logo-div {
   display: flex;
   align-items: center;
 }
@@ -41,10 +41,9 @@ header .logo {
   margin-left: 10px;
 }
 
-.header-logo{
+.header-logo {
   height: 30px;
 }
-
 
 header ul.nava {
   /* float: right; */
@@ -71,60 +70,61 @@ header .presentation {
   background-position: center center;
 }
 
-header .shop-cart-button{
+header .shop-cart-button {
   cursor: pointer;
   transition: color 500ms ease;
 }
 
-.shop-cart-button:hover, .shop-cart-button:focus{
-  color:#ca5252;
+.shop-cart-button:hover,
+.shop-cart-button:focus {
+  color: #ca5252;
   transform: scale(1.1);
 }
 
-header .shop-cart{
+header .shop-cart {
   position: absolute;
   top: 65px;
   right: 0px;
   width: 450px;
-  background: #262726; 
-  -webkit-box-shadow:  4px 5px 15px -7px #606060;
+  background: #262726;
+  -webkit-box-shadow: 4px 5px 15px -7px #606060;
   box-shadow: 4px 5px 15px -7px #606060;
   z-index: 1000;
   padding: 20px;
   padding-bottom: 0;
 }
 
-header .shop-cart .empty-cart h2{
+header .shop-cart .empty-cart h2 {
   font-size: 20px;
   margin-bottom: 20px;
 }
 
-header .shop-cart .item{
+header .shop-cart .item {
   width: 100%;
   float: left;
   margin-bottom: 20px;
 }
-header .shop-cart .item img{
+header .shop-cart .item img {
   width: 70px;
   float: left;
   margin-right: 20px;
 }
-header .shop-cart .item h2{
+header .shop-cart .item h2 {
   font-size: 20px;
   margin-bottom: 10px;
 }
 
-header .shop-cart .item b{
+header .shop-cart .item b {
   color: #797979;
   font-weight: 600;
 }
-.header-nav-buttons{
+.header-nav-buttons {
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
 }
 
-header .shop-cart .item .delete-icon{
+header .shop-cart .item .delete-icon {
   color: #ca5252;
   float: right;
   position: relative;
@@ -133,15 +133,32 @@ header .shop-cart .item .delete-icon{
   transition: color, transform 500ms ease;
 }
 
-header .shop-cart .item .delete-icon:hover{
-  color: rgb(131, 0, 0)
+header .shop-cart .item .delete-icon:hover {
+  color: rgb(131, 0, 0);
 }
 
-header .shop-cart .checkout-cart{
+header .shop-cart .checkout-cart {
   float: left;
   width: 100%;
   font-weight: 600;
   margin-bottom: 20px;
+}
+
+.categories div {
+  display: inline-block;
+  background: #a0a0a0;
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin-top: 35px;
+  margin-right: 15px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 500ms ease;
+}
+
+.categories div:hover {
+  border-color: silver;
+  transform: scale(1.1);
 }
 
 main {
