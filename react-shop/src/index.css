@@ -172,13 +172,18 @@ header .shop-cart .checkout-cart {
   overflow: auto;
 }
 
-.full-item > div {
-  width: 600px;
+.full-item .cardShowFullItem {
+  width: 500px;
   position: relative;
   margin: 10% auto;
   padding: 40px 30px;
   background: #fff;
   border-radius: 9px;
+}
+
+.full-item .cardShowFullItem img{
+  display: block;
+  margin: 0 auto;
 }
 
 main {
@@ -227,7 +232,7 @@ main b, .full-item b {
 }
 
 main .add-to-cart,
-.full-item main .add-to-cart  {
+.full-item .add-to-cart  {
   position: absolute;
   right: 20px;
   bottom: 20px;
