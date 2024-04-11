@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  scrollbar-color: rgb(61, 132, 231) rgba(0, 0, 0, 0)
 }
 
 body {
@@ -157,7 +158,7 @@ header .shop-cart .checkout-cart {
 
 .categories div {
   display: inline-block;
-  background: #a0a0a0;
+  background: #3b3b3b;
   border-radius: 50px;
   padding: 10px 20px;
   margin-top: 35px;
@@ -214,7 +215,7 @@ main .item {
   padding-bottom: 20px;
   border: 5px solid;
   border-radius: 10px;
-  border-color: #a0a0a0;
+  border-color: #3b3b3b;
 }
 
 main .item img,
