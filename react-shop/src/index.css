@@ -15,7 +15,10 @@ body {
 header {
   position: relative;
   border-bottom: 1px solid #2c2f35;
-  padding: 10px 0 9px 0;
+  padding: 7px 0 6px 0;
+  color: #bbc0ca;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 300;
 }
 
 .wrapper {
@@ -27,7 +30,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 23px 0 23px;
+  margin: 0 23px 0 10px;
 }
 
 .Header-logo-div {
@@ -43,7 +46,15 @@ header .logo {
 
 .header-logo {
   height: 30px;
+  padding: 3px 13px;
+  cursor: pointer;
 }
+
+.header-logo:hover{
+  background-color: #2c2f35;
+  border-radius: 4px;
+}
+
 
 header ul.nava {
   /* float: right; */
